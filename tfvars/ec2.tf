@@ -8,8 +8,8 @@ resource "aws_instance" "chandu" {
   tags = merge(
     var.common_tags,
     {
-      Name = "${each.key}.${var.environment}"
-      Module = "${each.key}.${var.environment}"
+      Name = "${each.key}"
+      Module = "${each.key}"
       Enviroment = var.environment
     }
   )
