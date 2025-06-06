@@ -12,11 +12,11 @@ resource "aws_instance" "chandu" {
   #   command = "ansible-playbook -i private_ips.txt web.yaml"
   # }
 connection {
-    type     = "ssh"
-    user     = "ec2-user"
-    password = "DevOps321"
-    host     = self.public_ip
-  }
+  type     = "ssh"
+  user     = var.ssh_user
+  password = var.ssh_password
+  host     = self.public_ip
+}
  
   provisioner "remote-exec" {
     inline = [
