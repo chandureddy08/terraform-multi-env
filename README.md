@@ -7,9 +7,9 @@ tfvars manages infrastructure using **Terraform** with two isolated environments
 ## 📁 Project Structure
 
 ├── terraform-provisioners
-│ ├── ec2.tf
-│ ├── provider.tf
-│ ├── private_ips.txt
+│  ├── ec2.tf
+│  ├── provider.tf
+│  └── private_ips.txt
 ├── tfvars/
 │ ├── dev/ # Development environment
 │ │ ├── backend.tf
@@ -21,5 +21,5 @@ tfvars manages infrastructure using **Terraform** with two isolated environments
 │ ├── ec2.tf
 │ ├── r53.tf.tf
 │ ├── outputs.tf
-│ ├── variables.tf
+│ └── variables.tf
 └── README.md
