@@ -1,4 +1,4 @@
-# 🌐 Terraform Provisioners and Multi-Environment Setup (Dev & Prod)
+# Terraform Provisioners and Multi-Environment Setup (Dev & Prod)
 
 terraform-provisioners folder illustrates about Local exec and Remote exec
 
